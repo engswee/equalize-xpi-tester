@@ -15,9 +15,9 @@ public class DACBTest {
 
 	@Test
 	public void testScenario1() throws MessagingException {
-		String inputFile = "TestData/DACB/DACB_Scenario1_param.txt";
-		String paramFile = "TestData/DACB/DACB_Scenario1_param.txt";
-		String dcOutputFile = "TestData/DACB/DACB_Scenario1_dc_output.txt";
+		String inputFile = "TestData/Module/DACB/DACB_Scenario1_param.txt";
+		String paramFile = "TestData/Module/DACB/DACB_Scenario1_param.txt";
+		String dcOutputFile = "TestData/Module/DACB/DACB_Scenario1_dc_output.txt";
 		Hashtable<String, String> contextData = ParameterHelper.newInstance(paramFile).getParams();
 		String dcOutput = ResultHelper.newInstance(dcOutputFile).getResultContent();
 		ModuleTester mt = ModuleTester.newInstance("com.equalize.xpi.af.modules.DynamicAttributeChangeBean", inputFile, contextData);
@@ -28,9 +28,9 @@ public class DACBTest {
 	}
 	@Test
 	public void testScenario2() throws MessagingException {
-		String inputFile = "TestData/DACB/DACB_Scenario2_param.txt";
-		String paramFile = "TestData/DACB/DACB_Scenario2_param.txt";
-		String dcOutputFile = "TestData/DACB/DACB_Scenario2_dc_output.txt";
+		String inputFile = "TestData/Module/DACB/DACB_Scenario2_param.txt";
+		String paramFile = "TestData/Module/DACB/DACB_Scenario2_param.txt";
+		String dcOutputFile = "TestData/Module/DACB/DACB_Scenario2_dc_output.txt";
 		Hashtable<String, String> contextData = ParameterHelper.newInstance(paramFile).getParams();
 		String dcOutput = ResultHelper.newInstance(dcOutputFile).getResultContent();
 		ModuleTester mt = ModuleTester.newInstance("com.equalize.xpi.af.modules.DynamicAttributeChangeBean", inputFile, contextData);
@@ -41,9 +41,9 @@ public class DACBTest {
 	}
 	@Test
 	public void testScenario3() throws MessagingException {
-		String inputFile = "TestData/DACB/DACB_Scenario3_param.txt";
-		String paramFile = "TestData/DACB/DACB_Scenario3_param.txt";
-		String dcOutputFile = "TestData/DACB/DACB_Scenario3_dc_output.txt";
+		String inputFile = "TestData/Module/DACB/DACB_Scenario3_param.txt";
+		String paramFile = "TestData/Module/DACB/DACB_Scenario3_param.txt";
+		String dcOutputFile = "TestData/Module/DACB/DACB_Scenario3_dc_output.txt";
 		Hashtable<String, String> contextData = ParameterHelper.newInstance(paramFile).getParams();
 		String dcOutput = ResultHelper.newInstance(dcOutputFile).getResultContent();
 		ModuleTester mt = ModuleTester.newInstance("com.equalize.xpi.af.modules.DynamicAttributeChangeBean", inputFile, contextData);
@@ -54,9 +54,9 @@ public class DACBTest {
 	}
 	@Test
 	public void testScenario4() throws MessagingException {
-		String inputFile = "TestData/DACB/DACB_Scenario4_param.txt";
-		String paramFile = "TestData/DACB/DACB_Scenario4_param.txt";
-		String dcOutputFile = "TestData/DACB/DACB_Scenario4_dc_output.txt";
+		String inputFile = "TestData/Module/DACB/DACB_Scenario4_param.txt";
+		String paramFile = "TestData/Module/DACB/DACB_Scenario4_param.txt";
+		String dcOutputFile = "TestData/Module/DACB/DACB_Scenario4_dc_output.txt";
 		Hashtable<String, String> contextData = ParameterHelper.newInstance(paramFile).getParams();
 		String dcOutput = ResultHelper.newInstance(dcOutputFile).getResultContent();
 		ModuleTester mt = ModuleTester.newInstance("com.equalize.xpi.af.modules.DynamicAttributeChangeBean", inputFile, contextData);
@@ -67,9 +67,9 @@ public class DACBTest {
 	}
 	@Test
 	public void testScenario5() throws MessagingException {
-		String inputFile = "TestData/DACB/DACB_Scenario5_param.txt";
-		String paramFile = "TestData/DACB/DACB_Scenario5_param.txt";
-		String dcOutputFile = "TestData/DACB/DACB_Scenario5_dc_output.txt";
+		String inputFile = "TestData/Module/DACB/DACB_Scenario5_param.txt";
+		String paramFile = "TestData/Module/DACB/DACB_Scenario5_param.txt";
+		String dcOutputFile = "TestData/Module/DACB/DACB_Scenario5_dc_output.txt";
 		Hashtable<String, String> contextData = ParameterHelper.newInstance(paramFile).getParams();
 		String dcOutput = ResultHelper.newInstance(dcOutputFile).getResultContent();
 		ModuleTester mt = ModuleTester.newInstance("com.equalize.xpi.af.modules.DynamicAttributeChangeBean", inputFile, contextData);
