@@ -7,5 +7,6 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/com.equalize.xpi.util"/>
 	<classpathentry kind="lib" path="C:/Users/ksap086/Dropbox/SAP/01 Knowledge/01 Code Repository/02 PI/1 - Library Files/PO 7.4 SP08/com.sap.ide.esr.tools.mapping.jars_1.0.0.140901052033.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/com.equalize.xpi.af.modules.ejb"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/com.equalize.xpi.esr.mapping.poc"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

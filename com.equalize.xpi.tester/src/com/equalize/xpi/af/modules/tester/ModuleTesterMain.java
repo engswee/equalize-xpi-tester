@@ -9,12 +9,12 @@ public class ModuleTesterMain {
 	public static void main(String[] args) {
 		try {
 			// Default files
-			String inputFile = "TestData/Module/input.txt";
-			String paramFile = "TestData/Module/parameter.txt";
-			String outFile = "TestData/Module/output.txt";
+			String inputFile = "C:\\Users\\ksap086\\Desktop\\Excel2XML_Scenario1.xlsx";
+			String paramFile = "C:\\Users\\ksap086\\Desktop\\Excel2XML_Scenario1_param.txt";
+			String outFile = "C:\\Users\\ksap086\\Desktop\\output.txt";
 			
 			// Module to be tested
-			String module = "com.equalize.xpi.af.modules.CustomModuleBean";
+			String module = "com.equalize.xpi.af.modules.FormatConversionBean";
 
 			// Get module parameters and initialize tester
 			Hashtable<String, String> contextData = ParameterHelper.newInstance(paramFile).getParams();
