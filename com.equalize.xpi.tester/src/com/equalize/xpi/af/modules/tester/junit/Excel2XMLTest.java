@@ -46,4 +46,16 @@ public class Excel2XMLTest {
 
 		assertEquals("Error", results, mt.execute());
 	}
+	@Test
+	public void testScenario4() throws ModuleException {
+		// Test new parameters headerRow & onlyValidCharsInXMLName
+		String inputFile = "TestData/Module/ExcelTransformBean/Excel2XML_Scenario4.xlsx";
+		String paramFile = "TestData/Module/ExcelTransformBean/Excel2XML_Scenario4_param.txt";
+		String resultFile = "TestData/Module/ExcelTransformBean/Excel2XML_Scenario4_output.txt";
+		Hashtable<String, String> contextData = ParameterHelper.newInstance(paramFile).getParams();
+		String results = ResultHelper.newInstance(resultFile).getResultContent();
+		ModuleTester mt = ModuleTester.newInstance("com.equalize.xpi.af.modules.FormatConversionBean", inputFile, contextData);
+
+		assertEquals("Error", results, mt.execute());
+	}
 }
