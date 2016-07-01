@@ -10,9 +10,9 @@ public class ModuleTesterMain {
 		try {
 			// Sample arguments:-
 			// arg0 - com.equalize.xpi.af.modules.FormatConversionBean
-			// arg1 - C:\Users\ksap086\Desktop\input.txt
-			// arg2 - C:\Users\ksap086\Desktop\param.txt
-			// arg3 - C:\Users\ksap086\Desktop\output.txt
+			// arg1 - TestData/Module/YAML/input.txt
+			// arg2 - TestData/Module/YAML/param.txt
+			// arg3 - C:\Users\ksap086\Desktop\output.xml
 			if(args.length < 4)
 				throw new RuntimeException("Please enter arguments in Run Configuration");
 
