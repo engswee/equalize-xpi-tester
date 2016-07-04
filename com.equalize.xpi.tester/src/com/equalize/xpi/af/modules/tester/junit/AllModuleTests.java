@@ -9,7 +9,8 @@ import org.junit.runners.Suite.SuiteClasses;
 				Excel2XMLTest.class, XML2ExcelTest.class,
 				JSON2XMLTest.class, XML2JSONTest.class,
 				Base64DecodeTest.class, Base64EncodeTest.class,
-				DACBTest.class })
+				//DACBTest.class,
+				YamlBeanTest.class })
 public class AllModuleTests {
 
 } 

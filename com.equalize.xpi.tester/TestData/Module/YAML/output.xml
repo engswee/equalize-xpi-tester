@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ns:MT_YAMLContent xmlns:ns="urn:equalize.com">
+  <address>4011 16th Ave S</address>
+  <age>28</age>
+  <name>Nathan Sweet</name>
+  <phone__u0020numbers>
+    <name>Home</name>
+    <number>206-555-5138</number>
+  </phone__u0020numbers>
+  <phone__u0020numbers>
+    <name>Work</name>
+    <number>425-555-2306</number>
+  </phone__u0020numbers>
+</ns:MT_YAMLContent>
