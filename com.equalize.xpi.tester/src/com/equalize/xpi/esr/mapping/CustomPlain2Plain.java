@@ -1,8 +1,8 @@
 package com.equalize.xpi.esr.mapping;
 
-import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.LineNumberReader;
 import java.io.OutputStream;
 import java.util.ArrayList;
 
@@ -21,7 +21,7 @@ public class CustomPlain2Plain extends AbstractTransformation {
 		OutputStream os = output.getOutputPayload().getOutputStream();
 		try {		
 			// Read input plain file
-			BufferedReader br = new BufferedReader(new InputStreamReader(is));		
+			LineNumberReader br = new LineNumberReader(new InputStreamReader(is));		
 			String lineContent;
 			ArrayList<String> contents = new ArrayList<String>(10);
 			while ((lineContent = br.readLine()) != null) {

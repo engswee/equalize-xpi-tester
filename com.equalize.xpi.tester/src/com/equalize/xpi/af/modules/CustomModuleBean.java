@@ -1,8 +1,8 @@
 package com.equalize.xpi.af.modules;
 
-import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.LineNumberReader;
 import java.util.ArrayList;
 
 import com.sap.aii.af.lib.mp.module.Module;
@@ -48,13 +48,13 @@ public class CustomModuleBean implements Module {
    InputStream inStr = payload.getInputStream();   
    
    // Get the text content
-   BufferedReader br = new BufferedReader(new InputStreamReader(inStr));  
+   LineNumberReader lnr = new LineNumberReader(new InputStreamReader(inStr));  
     ArrayList<String> contents = new ArrayList<String>();
    String lineContent;
-   while ((lineContent = br.readLine()) != null) {
+   while ((lineContent = lnr.readLine()) != null) {
     contents.add(lineContent);
    }
-   br.close();  
+   lnr.close();  
     
    // Modify the root element name
    StringBuilder sb = new StringBuilder();
