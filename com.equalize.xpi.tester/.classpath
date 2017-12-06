@@ -4,9 +4,5 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="con" path="com.sap.ext.libs.xpi.classpathContainer/adapter"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/com.equalize.xpi.util"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/com.equalize.xpi.af.modules.ejb"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/com.equalize.xpi.esr.mapping.poc"/>
-	<classpathentry kind="var" path="PI_LIBRARY/PO 7.4 SP08/com.sap.ide.esr.tools.mapping.jars_1.0.0.140901052033.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import com.equalize.xpi.util.converter.Converter;
+import com.equalize.xpi.tester.util.Converter;
 
 public class ResultHelper {
 	private final String fileName;

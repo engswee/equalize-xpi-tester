@@ -13,7 +13,7 @@ import java.util.Set;
 import com.equalize.xpi.af.modules.tester.impl.MessageImpl;
 import com.equalize.xpi.af.modules.tester.impl.ModuleContextImpl;
 import com.equalize.xpi.af.modules.tester.impl.XMLPayloadImpl;
-import com.equalize.xpi.util.converter.Converter;
+import com.equalize.xpi.tester.util.Converter;
 import com.sap.aii.af.lib.mp.module.Module;
 import com.sap.aii.af.lib.mp.module.ModuleData;
 import com.sap.aii.af.lib.mp.module.ModuleException;
